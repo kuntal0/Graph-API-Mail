@@ -1,0 +1,46 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "graph-api-1-client-side-solution",
+    "id": "c1e669ed-e8c0-43e6-a0a9-be955ad494c1",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.17.1"
+    },
+    "webApiPermissionRequests": [
+      {
+        "resource": "microsoft graph",
+        "scope": "Mail.Read"
+      }
+    ],
+    "metadata": {
+      "shortDescription": {
+        "default": "graph api 1 description"
+      },
+      "longDescription": {
+        "default": "graph api 1 description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "graph-api-1 Feature",
+        "description": "The feature that activates elements of the graph-api-1 solution.",
+        "id": "e4429651-3f5a-4e89-acef-b734214b0647",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/graph-api-1.sppkg"
+  }
+}
