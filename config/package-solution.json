@@ -18,7 +18,12 @@
       {
         "resource": "microsoft graph",
         "scope": "Mail.Read"
+      },
+      {
+        "resource": "microsoft graph",
+        "scope": "User.Read"
       }
+
     ],
     "metadata": {
       "shortDescription": {
